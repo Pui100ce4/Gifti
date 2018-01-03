@@ -1,8 +1,14 @@
+.contenu {
+  height:80%;
+  width:99.8%
+}
+
 footer {
   height: 3%;
   width: 100%;
-  background-color: green;
+  background-color: black;
   color: white;
+
 }
 
 .textfoot {
