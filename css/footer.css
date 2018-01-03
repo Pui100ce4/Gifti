@@ -1,0 +1,11 @@
+.foot {
+  height: 3%  ;
+  width: 100%;
+  background-color: green;
+  color: white;
+}
+
+.textfoot {
+margin-left: 10px;
+margin-top: 0px;
+}

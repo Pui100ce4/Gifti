@@ -6,7 +6,7 @@ html {
 }
 body {
   width: 80%;
-  height: 100%;
+  height: 200%;
   margin: 0;
   margin-left: 10%;
   background-color: rgb(245, 216, 130);
@@ -16,17 +16,16 @@ header {
 }
 
 header img {
-  width: 20%;
-  height: 20%;
+  width: 60%;
+  height: 60%;
 }
-.input1 {
-  top: 6%;
-  position: absolute;
+.imglogo {
+  width: 40%;
 }
-.input2 {
-  top: 6%;
-  position: absolute;
-  left:45.6%;
+.haut {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 ul {
@@ -67,24 +66,4 @@ ul {
 .menu a {
   text-decoration: none;
   color: black;
-}
-.evenement{
-  z-index: 1;
-  height: 20%;
-  width: 90%;
-  border: black solid 1px;
-  background-image: url(../img/jeusociete.jpg);
-  left:10%;
-  position: relative;
-}
-.titrecontenue{
-  z-index: 2;
-  position: relative;
-  background-color: white;
-  height: 30%;
-  width: 50%;
-  left: 25%;
-}
-.titret{
-  text-align: center;
 }
