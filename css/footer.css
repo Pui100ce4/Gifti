@@ -1,5 +1,5 @@
 .contenu {
-  height:130%;
+  height:150%;
   width:99.8%;
 }
 
@@ -15,12 +15,7 @@
 h1 {
   text-align: center;
 }
-.produits {
-  height: 70%;
-  width: 80%;
-  border: 1px solid black;
-  float: right;
-}
+
 
 td {
   border: 1px solid black;
