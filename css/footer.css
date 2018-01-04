@@ -1,11 +1,11 @@
 .contenu {
-  height:80%;
-  width:99.8%
+  height:130%;
+  width:99.8%;
 }
 
 .banniere {
   height: 25%;
-  width: 97%;
+  width: 100%;
   border: black solid 1px;
   background-image:url(../img/arcvoiture.jpg);
   background-position: center;
@@ -14,11 +14,26 @@
 
 }
 
+.produits {
+  height: 70%;
+  width: 80%;
+  border: 1px solid black;
+  float: right;
+}
+
+td {
+  border: 1px solid black;
+  height: 20%;
+  width: 20%;
+}
+
+
 footer {
   height: 3%;
   width: 100%;
   background-color: black;
   color: white;
+  bottom: 0;
 
 }
 
