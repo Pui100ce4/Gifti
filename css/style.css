@@ -204,3 +204,8 @@ color: green;
   margin-top: 20%;
   font-family: 'Ubuntu', sans-serif;
 }
+/****************************PAGE MENTIONS LEGALES******************************/
+.mentions {
+  text-align: justify;
+  font-family: 'Ubuntu', sans-serif;
+}
