@@ -175,6 +175,7 @@ section h1 {
   margin-bottom: 0.15%;
   margin-top: 0;
   font-family: 'Ubuntu', sans-serif;
+  font-size: 100%;
 }
 /* div contenant les divs intégrant la disponibilité produit et le prix */
 .prez2 {
