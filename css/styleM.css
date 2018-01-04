@@ -1,21 +1,11 @@
 .evenement{
   z-index: 1;
   position: relative;
-
   height: 34%;
-  width: 97%;
-  border: black solid 1px;
+  width: 100%;
   background-image: url(../img/jeusociete.jpg);
-  background-size: contain;
-
-  border-radius: 80px;
-  border: lightgreen 4px solid;
-  border-left: green solid 3px;
-  border-right: green solid 3px;
-  left:1%;
-  box-shadow: 6px 6px 6px black ;
-
-
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .titrecontenue{
   z-index: 2;
@@ -55,15 +45,12 @@
   margin-top: 1%;
   height: 30%;
   width: 97%;
-  border-color: white;
   border-top: pink solid 4px;
   border-bottom: pink solid 4px;
   border-left: 2px solid black;
   border-right: 2px solid black;
   /*background-color: rgb(66, 190, 183);*/
   background-color: red;
-  border-radius: 70px;
-  box-shadow: 6px 6px 6px black ;
 }
 .titres2{
   text-align: right;
@@ -75,8 +62,6 @@
   margin-right: 35px;
   padding-top: 10px;
   padding-right: 10px;
-
-
 }
 .cadrephoto{
   position: relative;
@@ -91,13 +76,13 @@
   margin-left: 25px;
   margin-right: 18px;
   margin-top: 30px;
-  border-radius: 30px;
+
 }
 .prix{
  text-align: right;
  font-size: 14px;
  padding-right: 20px;
- padding-top: 1px;
+ padding-top: 2px;
 }
 .photo{
   margin-left: 22px;
@@ -108,7 +93,6 @@
 .tphoto{
   text-transform: capitalize;
   color: white;
-
   padding-left: 20px;
   font-size: 10px;
 }
