@@ -104,6 +104,7 @@ ul {
 /***************************CONTENEUR DE LA PAGE********************************/
 .conteneurF {
   display: flex;
+  margin-top: 1%;
 }
 /**************************FILTRE DE RECHERCHE**********************************/
 /*conteneur du filtre de recherche à gauche de la page*/
@@ -111,6 +112,10 @@ ul {
   width: 20%;
 }
 /******************************CONTENU DE LA PAGE******************************/
+/*Titre page*/
+section h1 {
+  font-family: 'Ubuntu', sans-serif;
+}
 /*conteneur des divs entourant les cadres images de la page*/
 .conteneurC {
   width:80%;
