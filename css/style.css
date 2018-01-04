@@ -1,9 +1,13 @@
+/**************************STRUCTURE COMMUNE***********************************/
+
+/******************************HTML********************************************/
 html {
   width: 100%;
   height: 100%;
   overflow-x: none;
   background-color: rgba(235, 240, 233, 0.84);
 }
+/*******************************BODY******************************************/
 body {
   width: 80%;
   height: 200%;
@@ -11,19 +15,23 @@ body {
   margin-left: 10%;
   background-color: rgba(235, 240, 233, 0.84);
 }
-
-header img {
-  width: 120%;
-  height: 120%;
-}
-.imglogo {
-  width: 20%;
-}
+/******************************HEADER*****************************************/
+/* div intégrant divs logo, barre de recherche et logo panier*/
 .haut {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+/*div intégrant le logo*/
+.imglogo {
+  width: 20%;
+}
+/*logo gifti*/
+header img {
+  width: 120%;
+  height: 120%;
+}
+/******************************BARRE NAVIGATION********************************/
 nav {
   background-color: red;
   height: 7vw;
@@ -38,6 +46,7 @@ ul {
   width: 100%;
   padding: 0;
 }
+/*class pour les li, en 1 ligne de texte*/
 .menu {
   list-style-type: none;
   height: 4vw;
@@ -49,6 +58,11 @@ ul {
   font-family: 'Ubuntu', sans-serif;
   font-weight: bold;
 }
+.menu a {
+  text-decoration: none;
+  color: white;
+}
+/*class pour les li, en plusieurs lignes de texte*/
 .droit {
   list-style-type: none;
   height: 4vw;
@@ -68,13 +82,13 @@ ul {
   text-decoration: none;
   color: white;
 }
-.menu a {
-  text-decoration: none;
-  color: white;
-}
+/* class pour les li avec bordure droite*/
 .int {
   border-right: 0.5px dotted grey;
 }
+/******************************PAGE ACCUEIL************************************/
+
+/********************************BANNIERE**************************************/
 .banniere {
   width: 100%;
   display: flex;
@@ -84,4 +98,96 @@ ul {
 }
 .banniere img {
   width: 80vw;
+}
+/********************************PAGE FILLE************************************/
+
+/***************************CONTENEUR DE LA PAGE********************************/
+.conteneurF {
+  display: flex;
+}
+/**************************FILTRE DE RECHERCHE**********************************/
+/*conteneur du filtre de recherche à gauche de la page*/
+.filtre {
+  width: 20%;
+}
+/******************************CONTENU DE LA PAGE******************************/
+/*conteneur des divs entourant les cadres images de la page*/
+.conteneurC {
+  width:80%;
+}
+/*4 Divs entourants les 4 lignes de cadres image*/
+.ligne1 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 4%;
+}
+.ligne2 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 4%;
+}
+.ligne3 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 4%;
+}
+.ligne4 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 4%;
+}
+/*div cadres image*/
+.cadre {
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 30%;
+  background-color: white;
+}
+/*div intégrant l'image*/
+.imgcadre {
+  display: flex;
+  justify-content: center;
+
+}
+/*div intégrant les infos du produit*/
+.infocadre {
+
+}
+/*div intégrant le titre produit*/
+.presentation {
+  display:flex;
+  justify-content: space-around;
+}
+.presentation h3 {
+  margin-bottom: 0.15%;
+  margin-top: 0;
+  font-family: 'Ubuntu', sans-serif;
+}
+/* div contenant les divs intégrant la disponibilité produit et le prix */
+.prez2 {
+  display: flex;
+  justify-content: space-around;
+}
+/*div intégrant la disponibilité produit*/
+.dispo {
+color: green;
+
+}
+.dispo ul {
+  margin-bottom: 20%;
+  margin-top: 20%;
+}
+.dispo span {
+  color: black;
+  font-family: 'Ubuntu', sans-serif;
+}
+/*div intégrant le prix du produit*/
+.prix {
+
+}
+.prix p {
+  margin-bottom: 20%;
+  margin-top: 20%;
+  font-family: 'Ubuntu', sans-serif;
 }
