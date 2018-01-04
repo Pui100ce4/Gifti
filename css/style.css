@@ -143,9 +143,9 @@ section h1 {
 }
 /*div cadres image*/
 .cadre {
+  display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: center;
   width: 30%;
   background-color: white;
 }
@@ -153,14 +153,21 @@ section h1 {
 .imgcadre {
   display: flex;
   justify-content: center;
-
+}
+.imgcadre img {
+  width: 15vw;
+  height: 15vw;
 }
 /*div intégrant les infos du produit*/
 .infocadre {
-
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: space-around;
 }
 /*div intégrant le titre produit*/
 .presentation {
+  width: 100%;
   display:flex;
   justify-content: space-around;
 }
