@@ -4,16 +4,17 @@
 }
 
 .banniere {
-  height: 25%;
+  height: 15%;
   width: 100%;
   border: black solid 1px;
   background-image:url(../img/arcvoiture.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
 }
-
+h1 {
+  text-align: center;
+}
 .produits {
   height: 70%;
   width: 80%;
