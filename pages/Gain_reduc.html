@@ -33,10 +33,16 @@
         </ul>
       </nav>
     </header>
-          <div class="boiteNoir" display="inline">
-            <div id="1" style="border:1px solid red; height:50px; width:50px;" onclick=clickUtiliseur(this);>cailloux </div>
-              <div id="2" style="border:1px solid red; height:50px; width:50px;"onclick=clickUtiliseur(this);>ciseaux</div>
-                <div id="3" style="border:1px solid red; height:50px; width:50px;"onclick=clickUtiliseur(this);>feuille</div>
+          <div class="boiteNoir" display="inline-flex">
+              <div id="1" style="border:1px solid red;width: -moz-fit-content;" onclick=clickUtiliseur(this);>
+                  <img src="../img/pierre.png" alt="pierre">
+              </div>
+              <div id="2" style="border:1px solid red;width:-moz-fit-content;" onclick=clickUtiliseur(this);>
+                  <img src="../img/feuille.png" alt="feuille">
+              </div>
+              <div id="3" style="border:1px solid red; width:-moz-fit-content;"onclick=clickUtiliseur(this);>
+                  <img src="../img/ciseaux.png" alt="ciseaux">
+              </div>
            </div>
   </body>
 </html>
