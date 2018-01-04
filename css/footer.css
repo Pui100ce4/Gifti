@@ -44,3 +44,34 @@ height: 15%;
   float: right;
   margin-right: 2%;
 }
+
+.contenucontact {
+    height:150%;
+    width:99.8%;
+}
+
+.imagecontact {
+  height: 10%;
+  width: 100%;
+  border: black solid 1px;
+  background-image:url(../img/nounours.png);
+  background-color: #FF5C5C;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.bgformulaire {
+  height: 22%;
+  width: 48%;
+  background-image: url(../img/cahier.png);
+  margin:auto;
+}
+.formulaire {
+  height: 11%;
+  width: 24%;
+  margin-left: 20%;
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+
+}
