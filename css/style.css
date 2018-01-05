@@ -111,6 +111,35 @@ ul {
 /*conteneur du filtre de recherche à gauche de la page*/
 .filtre {
   width: 20%;
+  margin-right: 4%;
+  font-family:  'Ubuntu', sans-serif;
+}
+.titrefiltre {
+  display: flex;
+  justify-content: center;
+  font-size: 90%;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+fieldset {
+  border: 1px solid red;
+}
+.checkbox1 legend {
+  color: blue;
+  font-weight: bold;
+  font-style: italic;
+}
+.checkbox1 {
+  padding-top: 6%;
+  background-color: rgba(204, 207, 208, 0.84);
+  padding-right: 1.5%;
+  padding-left: 1.5%;
+}
+.fin {
+  padding-bottom: 3%;
 }
 /******************************CONTENU DE LA PAGE******************************/
 /*Titre page*/
