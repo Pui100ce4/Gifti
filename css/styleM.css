@@ -147,12 +147,7 @@
     height: 56%;
     width: 100%;
     background-image: url("../img/pat1.jpg");
-
   }
-/*.imgpub{
-  padding: 2px 2px 2px 2px;
-  float: left;
-}*/
 .photo3{
   position: relative;
   margin-left: 24px;
@@ -163,4 +158,12 @@
 
 }
 /*fin de la section de prsentation produit*/
-/*debut de la section explication boutique*/
+#bloc5{
+  position: relative;
+  z-index: 3;
+  margin-top: 1%;
+  height: 56%;
+  width: 100%;
+  background-image: url("../img/pat5.jpg");
+  background-size: cover;
+}
