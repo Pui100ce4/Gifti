@@ -236,7 +236,49 @@ color: green;
   font-family: 'Ubuntu', sans-serif;
 }
 /****************************PAGE MENTIONS LEGALES******************************/
+.conteneurF2 {
+  display: inline-block;
+  margin-top: 1%;
+}
 .mentions {
   text-align: justify;
   font-family: 'Ubuntu', sans-serif;
+  float: right;
+}
+.filtre2 {
+  width: 13.8%;
+  margin-right: 4%;
+  font-family:  'Ubuntu', sans-serif;
+  position: fixed;
+}
+.titrefiltre2 {
+  display: flex;
+  justify-content: center;
+  font-size: 90%;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+.checkbox2 {
+  padding-top: 6%;
+  background-color: rgba(204, 207, 208, 0.84);
+  padding-right: 1.5%;
+  padding-left: 1.5%;
+}
+.checkbox2 ol {
+  margin: 0;
+  padding-left: 30px;
+  font-size: 100%;
+}
+.fin2 {
+  padding-bottom: 6%;
+}
+.checkbox2 ol a {
+  color: black;
+}
+.textfoot a {
+  text-decoration: none;
+  color: white;
 }
