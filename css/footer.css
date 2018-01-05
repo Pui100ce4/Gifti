@@ -3,17 +3,6 @@
   width:99.8%;
 }
 
-/*.banniere {
-  height: 15%;
-  width: 100%;
-  border: black solid 1px;
-  background-image:url(../img/arcvoiture.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}*/
-
-
 
 footer {
   height: 3%;
@@ -29,6 +18,7 @@ margin-left: 0.5%;
 margin-top: 0%;
 width: 50%;
 height: 15%;
+margin-bottom: 0%;
 }
 
 .boiteicone {
@@ -43,29 +33,26 @@ height: 15%;
     width:99.8%;
 }
 
-.imagecontact {
-  height: 10%;
-  width: 100%;
-  border: black solid 1px;
-  background-image:url(../img/nounours.png);
-  background-color: #FF5C5C;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-}
 .bgformulaire {
-  height: 22%;
-  width: 48%;
+  height: 70%;
+  width: 99%;
   background-image: url(../img/papier-peint-enfant.jpg);
+  background-size: cover;
+  background-position: center;
   margin:auto;
+  display: flex;
+  margin-top: 10%;
+  border: 5px solid #FF5C5C;
+
 }
 .formulaire {
   height: 11%;
   width: 24%;
   margin-left: 25%;
-  margin-top: 10%;
+  margin-top: 25%;
   display: flex;
   flex-direction: column;
+
 }
 
 .boiteicone a:visited {
