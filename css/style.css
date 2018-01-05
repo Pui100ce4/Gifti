@@ -91,6 +91,7 @@ ul {
 /********************************BANNIERE**************************************/
 .banniere {
   width: 100%;
+  height: 15%;
   display: flex;
   justify-content: flex-start;
   align-items: center;
