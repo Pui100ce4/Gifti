@@ -99,7 +99,17 @@ ul {
 .banniere img {
   width: 80vw;
 }
-
+/*******************************FLECHE TOP*************************************/
+.moveup{
+    display: none;
+    height: 3%;
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+}
+.fleche:hover{
+    cursor: pointer;
+}
 /******************************PAGE ACCUEIL************************************/
 /**************** BANNIERE DEFILANTE ACCUEIL ***********************************/
 /*.mySlides {display: none}*/
