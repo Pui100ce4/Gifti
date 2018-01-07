@@ -208,7 +208,7 @@ section h1 {
   font-family: 'Ubuntu', sans-serif;
   font-size: 100%;
 }
-/* div contenant les divs intégrant la disponibilité produit et le prix */
+/* div contenant les divs intégrant la disponibilité produit le prix et le panier*/
 .prez2 {
   display: flex;
   justify-content: space-around;
@@ -216,11 +216,12 @@ section h1 {
 /*div intégrant la disponibilité produit*/
 .dispo {
 color: green;
-
+padding-left: 7%;
 }
 .dispo ul {
   margin-bottom: 20%;
-  margin-top: 20%;
+  margin-top: 25%;
+  display: inline-block;
 }
 .dispo span {
   color: black;
@@ -234,7 +235,21 @@ color: green;
   margin-bottom: 20%;
   margin-top: 20%;
   font-family: 'Ubuntu', sans-serif;
+  display: inline-block;
 }
+.panierpage {
+  display: flex;
+  align-items: center;
+}
+.panierpage .fille {
+  color: rgb(228, 27, 160);
+}
+.panierpage button {
+  display: flex;
+  align-items: center;
+  height: 60%;
+}
+
 /****************************PAGE MENTIONS LEGALES******************************/
 .conteneurF2 {
   display: inline-block;
