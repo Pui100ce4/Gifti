@@ -26,55 +26,67 @@
 /*section de présentation des produits*/
 /*section des produits*/
 .h2{
-  top: 14px;
-  position: relative;
-  border: black inset 4px;
-  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: black inset 2px;
   background-color: rgba(72, 35, 150, 0.75);
   opacity: 0.9;
 }
 #bloc1{
-
-z-index: 3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   height: 30%;
   width: 100%;
   background-image: url("../img/pat6.jpg");
   background-size: contain;
 }
 #bloc2{
-  /**position: relative;
-  z-index: 3;*/
-  /*margin-top: 1%;*/
-  height: 30%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40%;
   width: 100%;
   background-image: url("../img/pat3.jpg");
   background-size: cover;
-}
+  padding-bottom: 26px;}
 #bloc3{
-  /*position: relative;
-  z-index: 3;*/
   margin-top: 1%;
-  height: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40%;
   width: 100%;
   background-image: url("../img/pat2.jpg");
   background-size: cover;
+  padding-bottom: 25px;
 }
 .titres2{
+  align-items: center;
   text-align: center;
   font-size: 15px;
   font-family: cursive;
   color: white;
-  margin-right: 35px;
-  margin-left: 35px;
+
+
 
 }
+/*.ptcad{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}*/
 .cadrephoto{
-  /*position: relative;
-  z-index: 999;*/
+  position: relative;
+
   background-size: cover;
   background-color: white;
   padding: 2px 2px 2px 2px;
   float: left;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   width: 20%;
   height:60%;
   box-shadow: 6px 6px 6px black ;
@@ -99,7 +111,7 @@ z-index: 3;
 }
 .photo{
   margin-left: 22px;
-  margin-top: 16px;
+  margin-top: 19px;
   height: 70%;
   width: 70%;
 }
@@ -141,16 +153,20 @@ z-index: 3;
 
   }
 #bloc4{
-  /*position: relative;
-    z-index: 999;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     margin-top: 1%;
     height: 56%;
     width: 100%;
     background-image: url("../img/pat1.jpg");
   }
 .photo3{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   /*position: relative;*/
-  margin-left: 24px;
+  margin-left: 14px;
   /*margin-top: 14px;*/
   height: 35%;
   width: 30%;
@@ -159,8 +175,9 @@ z-index: 3;
 }
 /*fin de la section de prsentation produit*/
 #bloc5{
-  /*position: relative;
-  z-index: 4;*/
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   height: 56%;
   width: 100%;
   background-image: url("../img/pat5.jpg");
