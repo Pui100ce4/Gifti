@@ -3,14 +3,14 @@
 /******************************HTML********************************************/
 html {
   width: 100%;
-  height: auto;
+  height: 100%;
   overflow-x: none;
   background-color: rgba(235, 240, 233, 0.84);
 }
 /*******************************BODY******************************************/
 body {
   width: 80%;
-  height: auto;
+  height: 200%;
   margin: 0;
   margin-left: 10%;
   background-color: rgba(235, 240, 233, 0.84);

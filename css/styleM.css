@@ -1,22 +1,17 @@
 .evenement{
-  z-index: 1;
   position: relative;
   height: 20vw;
   width: 100%;
-
   background-repeat: no-repeat;
   margin-top: 1%;
 }
 .titrecontenue{
-  z-index: 2;
-  position: relative;
   opacity: 0.7;
   height: 9%;
   width: 22%;
   left: 75%;
   top: 49%;
   border: black solid 5px;
-
 }
 
 .titret{
@@ -34,30 +29,30 @@
   top: 14px;
   position: relative;
   border: black inset 4px;
-
+  z-index: 1;
   background-color: rgba(72, 35, 150, 0.75);
   opacity: 0.9;
 }
 #bloc1{
-  position: relative;
-  z-index: 3;
+
+z-index: 3;
   height: 30%;
   width: 100%;
   background-image: url("../img/pat6.jpg");
   background-size: contain;
 }
 #bloc2{
-  position: relative;
-  z-index: 3;
-  margin-top: 1%;
+  /**position: relative;
+  z-index: 3;*/
+  /*margin-top: 1%;*/
   height: 30%;
   width: 100%;
   background-image: url("../img/pat3.jpg");
   background-size: cover;
 }
 #bloc3{
-  position: relative;
-  z-index: 3;
+  /*position: relative;
+  z-index: 3;*/
   margin-top: 1%;
   height: 30%;
   width: 100%;
@@ -74,8 +69,8 @@
 
 }
 .cadrephoto{
-  position: relative;
-  z-index: 4;
+  /*position: relative;
+  z-index: 999;*/
   background-size: cover;
   background-color: white;
   padding: 2px 2px 2px 2px;
@@ -137,7 +132,7 @@
   box-shadow: 6px 6px 6px black ;
 }
 .blocprix2{
-
+  /*position: relative;*/
   border: 1px solid black;
   padding: 3px;
   background: white;
@@ -146,17 +141,17 @@
 
   }
 #bloc4{
-    position: relative;
-    z-index: 3;
+  /*position: relative;
+    z-index: 999;*/
     margin-top: 1%;
     height: 56%;
     width: 100%;
     background-image: url("../img/pat1.jpg");
   }
 .photo3{
-  position: relative;
+  /*position: relative;*/
   margin-left: 24px;
-  margin-top: 14px;
+  /*margin-top: 14px;*/
   height: 35%;
   width: 30%;
   float: left;
@@ -164,9 +159,8 @@
 }
 /*fin de la section de prsentation produit*/
 #bloc5{
-  position: relative;
-  z-index: 3;
-
+  /*position: relative;
+  z-index: 4;*/
   height: 56%;
   width: 100%;
   background-image: url("../img/pat5.jpg");
