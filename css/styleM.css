@@ -1,10 +1,4 @@
-.evenement{
-  filter: saturate(300%);
-  height: 20vw;
-  width: 100%;
-  background-repeat: no-repeat;
-  margin-top: 1%;
-}
+
 .titrecontenue{
   height: 9%;
   width: 22%;
@@ -28,10 +22,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border: black inset 8px;
-  background-color: rgba(142, 3, 74, 1);
+  border: black inset 6px;
+  background-color: rgb(249, 177, 42);
   padding: 6px 0px 6px 0px;
-  opacity: 0.8;
+
 }
 #bloc1{
   display: flex;
@@ -69,6 +63,8 @@
   font-size: 15px;
   font-family: cursive;
   color: white;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
 }
 .cadrephoto{
   position: relative;
@@ -81,9 +77,9 @@
   align-items: center;
   width: 20%;
   height:60%;
-  box-shadow: 6px 6px 6px black ;
-  border: black inset 2px;
-  border-radius: 0px 70px 0px 70px;
+
+
+
   margin-left: 22px;
   margin-right: 18px;
   margin-top: 30px;
@@ -102,14 +98,15 @@
  padding-top: 6px;
 }
 .photo{
-  margin-left: 22px;
+
+  margin-left: 32px;
   margin-top: 16px;
   height: 70%;
   width: 70%;
   filter: saturate(200%);
 }
 .photo2{
-  margin-left: 22px;
+  margin-left: 32px;
   margin-top: 16px;
   height: 70%;
   width: 70%;
@@ -121,8 +118,9 @@
   align-items: center;
   margin-left: 22px;
   margin-top: 16px;
-  height: 30%;
-  width: 30%;
+  height: 22%;
+  width: 22%;
+  box-shadow: 2px 2px 2px rgb(148,148,150);
   filter: saturate(200%);
   float: left;
 }
@@ -145,14 +143,14 @@
   border: 1px solid black;
   padding: 3px;
   background: white;
-  border-radius: 30px;
+
   box-shadow: 6px 6px 6px black ;
 }
 .blocprix2{
   border: 1px solid black;
   padding: 3px;
   background: white;
-  border-radius: 30px;
+
   box-shadow: 6px 6px 6px black ;
   }
 #bloc4{
