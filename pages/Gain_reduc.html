@@ -2,8 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Gitfi- reduc</title>
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/reduc.css">
     <link href="https://use.fontawesome.com/releases/v5.0.2/css/all.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
     <script src="../js/script.js" charset="utf-8"></script>
@@ -34,19 +35,24 @@
         </ul>
       </nav>
     </header>
-          <div class="boiteNoir" display="flex">
-              <div id="1" style="border:1px solid red;width: -moz-fit-content;" onclick=clickUtilisateur(this);>
+          <div class="boiteNoir">
+              <div class="ChoixU">
+                <div id="1" style="border:1px solid red;width: -moz-fit-content;" onclick=clickUtilisateur(this);>
                   <img src="../img/pierre.png" alt="pierre">
-              </div>
-              <div id="2" style="border:1px solid red;width:-moz-fit-content;" onclick=clickUtilisateur(this);>
+                </div>
+                <div id="2" style="border:1px solid red;width:-moz-fit-content;" onclick=clickUtilisateur(this);>
                   <img src="../img/feuille.png" alt="feuille">
-              </div>
-              <div id="3" style="border:1px solid red; width:-moz-fit-content;"onclick=clickUtilisateur(this);>
+                </div>
+                <div id="3" style="border:1px solid red; width:-moz-fit-content;"onclick=clickUtilisateur(this);>
                   <img src="../img/ciseaux.png" alt="ciseaux">
+                </div>
               </div>
-              <div id="choixOrdi"></div>
+              <div class="boiteInfo">
+                   <h2>Score et précédent jeux</h2>
+                   <div id="choixOrdi">
 
+                   </div>
               </div>
-           </div>
+          </div>
   </body>
 </html>
