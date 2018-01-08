@@ -44,7 +44,7 @@
   height: 40%;
   width: 100%;
   background-image: url("../img/pat3.jpg");
-  background-size: cover;
+  background-size: contain;
   padding-bottom: 26px;}
 #bloc3{
   margin-top: 1%;
@@ -54,7 +54,7 @@
   height: 40%;
   width: 100%;
   background-image: url("../img/pat2.jpg");
-  background-size: cover;
+  background-size: contain;
   padding-bottom: 25px;
 }
 .titres2{
@@ -77,6 +77,7 @@
   align-items: center;
   width: 20%;
   height:60%;
+  box-shadow: 2px 2px 2px rgb(148,148,150);
 
 
 
@@ -104,6 +105,7 @@
   height: 70%;
   width: 70%;
   filter: saturate(200%);
+
 }
 .photo2{
   margin-left: 32px;
@@ -111,6 +113,7 @@
   height: 70%;
   width: 70%;
   filter: saturate(200%);
+  
 }
 .photo4{
   display: flex;
@@ -147,7 +150,7 @@
   box-shadow: 6px 6px 6px black ;
 }
 .blocprix2{
-  border: 1px solid black;
+  border: 1p0x solid black;
   padding: 3px;
   background: white;
 
@@ -161,17 +164,27 @@
     height: 60%;
     width: 100%;
     background-image: url("../img/pat1.jpg");
+    background-size: contain;
   }
 .photo3{
+  height: 22%;
+  width: 21%;
+  justify-content: space-between;
+  filter: saturate(200%);
+  margin-left: 32px;
+  box-shadow: 2px 2px 2px rgb(148,148,150);
+  float: left;
+
+}
+.bl1{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-left: 14px;
-  height: 35%;
-  width: 30%;
-  filter: saturate(200%);
-  float: left;
-
+}
+.bloc2{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 /*fin de la section de prsentation produit*/
 #bloc5{
@@ -181,7 +194,7 @@
   height: 56%;
   width: 100%;
   background-image: url("../img/pat5.jpg");
-  background-size: cover;
+  background-size: contain;
   margin-bottom: 1%;
 
 }
