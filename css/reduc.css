@@ -1,11 +1,23 @@
+.boiteNoire {
+
+}
+.ChoixU{
+  height: 100%;
+  width: 40%;
+  border: 1px solid blue;
+}
 .boiteInfo{
   height: 50%;
   width: 40%;
   float: right;
   border: 1px solid red;
 }
-.ChoixU{
-  height: 100%;
-  width: 40%;
-  border: 1px solid blue;
+.un {
+  width: 50vw;
+}
+.deux {
+
+}
+.troi {
+  
 }
