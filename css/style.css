@@ -3,13 +3,6 @@
 /******************************HTML********************************************/
 html {
   width: 100%;
-
-  height: 100%;
-  overflow-x: none;
-
-  height: auto;
-  overflow-x: none;
-
   min-height: 100%;
   max-height: auto;
   background-color: rgba(235, 240, 233, 0.84);
@@ -17,14 +10,8 @@ html {
 /*******************************BODY******************************************/
 body {
   width: 80%;
-<<<<<<< HEAD
-  height: 200%;
-||||||| merged common ancestors
-  height: auto;
-=======
   min-height: 100%;
   max-height: auto;
->>>>>>> 19457d6f02f66ba3022291ff5f1a1af27e7ad63b
   margin: 0;
   margin-left: 10%;
   background-color: rgba(235, 240, 233, 0.84);

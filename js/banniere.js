@@ -30,26 +30,13 @@ function defilimage(){
     slideIndex += 1;
     showSlides(slideIndex);
 }
-window.onscroll = function (ev) {
 
-   var footer = document.querySelector('footer');
-    var moveup = null;
-    if (document.querySelector('.moveup') === null) {
-        moveup = document.createElement('div');
-        moveup.className = 'moveup';
-        var fleche = document.createElement('span');
-        fleche.className = 'fa fa-angle-up fleche';
-        fleche.onclick = topFunction();
-        moveup.appendChild(fleche);
-        footer.insertAdjacentElement('afterend', moveup);
-   } else {
-        moveup = document.querySelector('.moveup');
-    }
-
-   var header = document.querySelector('header');
+window.onscroll = function(ev) {
+    var moveup = document.querySelector('.moveup');
+    var header = document.querySelector('header');
     if ((Math.ceil(window.pageYOffset)) > header.offsetHeight) {
         moveup.style.display = 'block';
-    } else {
+    } else  {
         moveup.style.display = 'none';
     }
 };
