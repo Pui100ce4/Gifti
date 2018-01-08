@@ -15,7 +15,8 @@ function clickUtilisateur(block){
     clickOrdi.document.write('<div><img src="../img/pierre.png" style="height: 20%;width: 20%;"><img src="../img/ciseaux.png"style="height: 20%;width: 20%;"></div>');
   }else if(clickUtil==2 && scoreOrdi==1) {
     console.log("c'est gagné, c'est gagné !!");
-    // document.getElementById("choixOrdi").document.write("<img src='../img/pierre.png'");
+    clickOrdi.document.write('<div><img src="../img/feuille.png" style="height: 20%;width: 20%;"><img src="../img/pierre.png"style="height: 20%;width: 20%;"></div>');
+  }else if(clickUtil==2 && scoreOrdi==1) {
   }else if(clickUtil==3 && scoreOrdi==2) {
     console.log("c'est gagné, c'est gagné !!");
     // document.getElementById("choixOrdi").document.write("<img src='../img/feuille.png'");
