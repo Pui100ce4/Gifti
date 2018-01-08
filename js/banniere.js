@@ -1,48 +1,60 @@
-imgPath = new Array;
-SiClickGoTo = new Array;
-version = navigator.appVersion.substring(0,1);
-if (version >= 3)
-	{
-	i0 = new Image;
-	i0.src = 'img/img1.png';
-	SiClickGoTo[0] = "pages/garcon.html";
-	imgPath[0] = i0.src;
-	i1 = new Image;
-	i1.src = 'img/img2.png';
-	SiClickGoTo[1] = "pages/filles.html";
-	imgPath[1] = i1.src;
-	i2 = new Image;
-	i2.src = 'img/img3.png';
-	SiClickGoTo[2] = "pages/moinsde5ans.html";
-	imgPath[2] = i2.src;
-	}
-a = 0;
-function startAnim()
-	{
-	if (version >= 3)
-		{
-		document.write('<a href="#" onclick="ImgDest();return(false)"><img src="url_image0" border="0" alt="Menu" name="defil" /></a>');
-		defilimg()
-		}
-	else
-		{
-		document.write('<a href="Lien0"><img src="url_image0" border="0" /></a>')
-		}
-	}
-function ImgDest()
-	{
-	document.location.href = SiClickGoTo[a-1];
-	}
-function defilimg()
-	{
-	if (a == 3)
-		{
-		a = 0;
-		}
-	if (version >= 3)
-		{
-		document.defil.src = imgPath[a];
-		tempo3 = setTimeout("defilimg()",3000);
-		a++;
-		}
-	}
+var slideIndex = 1;
+
+window.addEventListener('load', function(event) {
+    showSlides(slideIndex);
+})
+
+//Appel function showSlides avec slide + 1
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+//Appel function showSlides avec slide - 1
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.querySelectorAll(".mySlides");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length;}
+
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  slides[slideIndex-1].style.display = "block";
+}
+
+function defilimage(){
+    slideIndex += 1;
+    showSlides(slideIndex);
+}
+window.onscroll = function (ev) {
+
+   var footer = document.querySelector('footer');
+    var moveup = null;
+    if (document.querySelector('.moveup') === null) {
+        moveup = document.createElement('div');
+        moveup.className = 'moveup';
+        var fleche = document.createElement('span');
+        fleche.className = 'fa fa-angle-up fleche';
+        fleche.onclick = topFunction();
+        moveup.appendChild(fleche);
+        footer.insertAdjacentElement('afterend', moveup);
+   } else {
+        moveup = document.querySelector('.moveup');
+    }
+
+   var header = document.querySelector('header');
+    if ((Math.ceil(window.pageYOffset)) > header.offsetHeight) {
+        moveup.style.display = 'block';
+    } else {
+        moveup.style.display = 'none';
+    }
+};
+
+function topFunction() {
+   // document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
