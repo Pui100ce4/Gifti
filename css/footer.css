@@ -5,26 +5,22 @@
 
 
 footer {
-  height: 3%;
+  height: 2vw;
   width: 100%;
   background-color: black;
   color: white;
   bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .textfoot {
-margin-left: 0.5%;
-margin-top: 0%;
-width: 50%;
-height: 15%;
-margin-bottom: 0%;
+
 }
 
 .boiteicone {
-  float: right;
-  margin-right: 2%;
-  color: white;
-  text-decoration: none;
+
 }
 
 .contenucontact {
