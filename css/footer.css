@@ -5,7 +5,7 @@
 
 
 footer {
-  height: 2vw;
+  height: 35px;;
   width: 100%;
   background-color: black;
   color: white;
@@ -16,13 +16,37 @@ footer {
 }
 
 .textfoot {
-
+  width: 35%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 1%;
 }
 
 .boiteicone {
-
+  width: 35%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 1%;
 }
-
+.footM {
+  width: 35%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footM a {
+  text-decoration: none;
+  color: white;
+}
+.footM a:hover {
+  color: rgb(249, 177, 42);
+  font-weight: bolder;
+}
+.icone1, .icone2, .icone3 {
+  margin-right: 1.5%;
+}
 .contenucontact {
     height:50%;
     width:99.8%;
