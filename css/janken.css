@@ -1,0 +1,41 @@
+body{
+  height:100%;
+}
+
+img{
+  width: 10%;
+}
+
+#feuille{
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.plateau {
+  width: 100%;
+  height:70%;
+  margin: auto;
+  z-index: 1;
+  background-image: url("../img/test.jpg");
+}
+.codeReduc{
+  margin:0;
+  display:none;
+}
+
+.images {
+  margin-bottom: 5%;
+}
+
+h1{
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+.choix{
+  margin-right: 5%;
+}
+
+.reset{
+  display:none;
+}
