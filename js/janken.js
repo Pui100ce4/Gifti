@@ -110,5 +110,5 @@ function codeAlea(){
   nb10= Math.floor(Math.random()* (max - min + 1))+ min;
   nb11= Math.floor(Math.random()* (max - min + 1))+ min;
   nb12= Math.floor(Math.random()* (max - min + 1))+ min;
-    $('.COdePromo').text(chaineCarac[nb1]+chaineCarac[nb2]+chaineCarac[nb3]+chaineCarac[nb4]+" - "+chaineCarac[nb5]+chaineCarac[nb6]+chaineCarac[nb7]+chaineCarac[nb8]+" - "+chaineCarac[nb9]+chaineCarac[nb10]+chaineCarac[nb11]+chaineCarac[nb12]+" - 2018");
+    alert(chaineCarac[nb1]+chaineCarac[nb2]+chaineCarac[nb3]+chaineCarac[nb4]+" - "+chaineCarac[nb5]+chaineCarac[nb6]+chaineCarac[nb7]+chaineCarac[nb8]+" - "+chaineCarac[nb9]+chaineCarac[nb10]+chaineCarac[nb11]+chaineCarac[nb12]+" - 2018");
 }
