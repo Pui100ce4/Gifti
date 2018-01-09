@@ -2,17 +2,20 @@
   height:150%;
   width:99.8%;
 }
-
+.banniere {
+  box-shadow: 2px 2px 2px rgb(148,148, 150);
+}
 
 footer {
   height: 35px;;
   width: 100%;
-  background-color: black;
+  background-color: rgb(249, 177, 42);
   color: white;
   bottom: 0;
   display: flex;
   justify-content: center;
   align-items: center;
+  box-shadow: 2px 2px 2px rgb(148,148, 150);
 }
 
 .textfoot {
@@ -41,7 +44,7 @@ footer {
   color: white;
 }
 .footM a:hover {
-  color: rgb(249, 177, 42);
+  color: white;
   font-weight: bolder;
 }
 .icone1, .icone2, .icone3 {
@@ -63,6 +66,7 @@ footer {
   flex-direction: column;
   justify-content: center;
   margin-bottom: 1%;
+  box-shadow: 2px 2px 2px rgb(148,148, 150);
 
 }
 
