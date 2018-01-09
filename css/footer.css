@@ -16,6 +16,7 @@ footer {
   justify-content: center;
   align-items: center;
   box-shadow: 2px 2px 2px rgb(148,148, 150);
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .textfoot {
@@ -62,6 +63,7 @@ footer {
   background-size: cover;
   background-position: top;
   margin:auto;
+  margin-top: 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -81,11 +83,17 @@ footer {
   margin: auto;
 }
 
+.envoyer:hover {
+  color: #F9B12A;
+  background-color: #FF4C4C;
+
+}
 .boitereso {
   display: flex;
   flex-direction: row;
   margin-top: 15%;
   margin-left: 24%;
+
 }
 
 .boitereso a:visited {
@@ -110,8 +118,11 @@ text-decoration: none;
 
 .tailleForm {
   width: 30vw;
+  background-color: #FF4C4C;
+  border: 3px solid #F9B12A;
 }
-
 textarea {
-width: 31vw;
+width: 30vw;
+border: 3px solid #F9B12A;
+background-color: #FF4C4C;
 }
