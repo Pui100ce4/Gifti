@@ -75,6 +75,10 @@
   width: 70%;
   filter: saturate(200%);
 }
+.cadrephoto:hover{
+  height: 26%;
+  width: 26%;
+  }
 .photo2{
   margin-left: 32px;
   margin-top: 16px;
