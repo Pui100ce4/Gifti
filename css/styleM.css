@@ -4,7 +4,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border: black inset 2px;
+  box-shadow: 2px 2px 2px rgb(148,148,150);
   background-color: rgb(249, 177, 42);
   padding: 6px 0px 6px 0px;
 }
@@ -15,6 +15,7 @@
   height: 40%;
   width: 100%;
   background-image: url("../img/pat3.jpg");
+  box-shadow: 2px 2px 2px rgb(148,148,150);
   background-size: contain;
   padding-bottom: 26px;
 }
@@ -26,6 +27,7 @@
   height: 40%;
   width: 100%;
   background-image: url("../img/pat2.jpg");
+  box-shadow: 2px 2px 2px rgb(148,148,150);
   background-size: contain;
   padding-bottom: 25px;
 }
@@ -105,12 +107,14 @@
   padding: 3px;
   background: white;
   box-shadow: 6px 6px 6px black ;
+  font-family: 'Ubuntu', sans-serif;
 }
 .blocprix2{
   border: 1p0x solid black;
   padding: 3px;
   background: white;
   box-shadow: 6px 6px 6px black ;
+  font-family: 'Ubuntu', sans-serif;
   }
   .fbloc{
     margin-bottom: 10px;
