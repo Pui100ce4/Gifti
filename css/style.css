@@ -32,6 +32,52 @@ header img {
   width: 120%;
   height: 120%;
 }
+.panier{
+  border-radius: 7px 7px 7px 7px;
+  box-shadow: 2px 2px 2px rgb(148,148,150);
+  background: radial-gradient( white,rgba(235, 240, 233, 0.84));
+  border: 1px solid rgb(178, 178, 190);
+  color: rgb(249, 177, 42);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 3em;
+  height: 3em;
+}
+.panier:hover {
+  box-shadow: 2px 2px 2px rgb(148,148,150);
+  font-size: 0.9em;
+}
+.panier:active {
+  box-shadow: 2px 2px 2px rgb(148,148,150);
+  font-size: 0.9em;
+  background-color: black;
+}
+
+.search {
+  color: rgb(249, 177, 42);
+  height: 2em;
+  width: 3em;
+  border-radius: 7px 7px 7px 7px;
+  box-shadow: 2px 2px 2px rgb(148,148,150);
+  background: radial-gradient( white,rgba(235, 240, 233, 0.84));
+  border: 1px solid rgb(178, 178, 190);
+}
+.search:hover {
+  box-shadow: 2px 2px 2px rgb(148,148,150);
+  font-size: 0.9em;
+}
+.search:active {
+  box-shadow: 2px 2px 2px rgb(148,148,150);
+  background-color: black;
+  font-size: 0.9em;
+}
+.input1 {
+	width: 20vw;
+	height: 1.54em;
+	border-radius: 7px 7px 7px 7px;
+	border: 3px double rgb(178, 178, 190);
+}
 /******************************BARRE NAVIGATION********************************/
 nav {
   background-color: rgb(249, 177, 42);
@@ -103,6 +149,7 @@ ul a:hover {
 }
 .banniere img {
   width: 80vw;
+  filter:saturate(150%);
 }
 /*******************************FLECHE TOP*************************************/
 .moveup{
@@ -349,8 +396,15 @@ padding-left: 7%;
   display: flex;
   align-items: center;
   height: 60%;
+  border-radius: 7px 7px 7px 7px;
+  box-shadow: none;
+  background-color: rgba(235, 240, 233, 0.84);
+  border: 1px solid lightgray;
 }
-
+.panierpage button:hover {
+  font-size: 110%;
+  box-shadow: 1px 1px 1px black;
+}
 /****************************PAGE MENTIONS LEGALES******************************/
 .conteneurF2 {
   display: inline-block;
