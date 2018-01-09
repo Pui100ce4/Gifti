@@ -49,20 +49,21 @@ footer {
 }
 .contenucontact {
     height:50%;
-    width:99.8%;
+    width:100%;
 }
 
 .bgformulaire {
   height: 100%;
-  width: 99%;
-  background-image: url(../img/papier-peint-enfant.jpg);
+  width: 100%;
+  background-image: url(../img/papierpeintversion2.png);
   background-size: cover;
-  background-position: center;
+  background-position: top;
   margin:auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  border: 7px solid #FF5C5C;
+  margin-bottom: 1%;
+
 }
 
 
@@ -79,11 +80,15 @@ footer {
 .boitereso {
   display: flex;
   flex-direction: row;
+  margin-top: 15%;
+  margin-left: 24%;
 }
+
 .boitereso a:visited {
   color: black;
   text-decoration: none;
 }
+
 .boitereso a:link {
   color: black;
   text-decoration: none;
