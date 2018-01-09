@@ -6,11 +6,12 @@
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/reduc.css">
     <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/janken.css">
+
     <link href="https://use.fontawesome.com/releases/v5.0.2/css/all.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
-    <script src="../js/script.js" charset="utf-8"></script>
   </head>
-  <body>
+  <body  onload = 'decompte()'>
     <header>
       <div class="haut">
         <div class="imglogo">
@@ -38,25 +39,44 @@
         </ul>
       </nav>
     </header>
+    <link rel='stylesheet' type='text/css' href='janken.css'/>
+        <meta charset="UTF-8">
+    	</head>
 
-          <div class="boiteNoir">
-              <div class="ChoixU">
-                <div id="1" class="un" onclick="votreChoix(1)">
-                  <img src="../img/choix1.png" alt="pierre">
-                </div>
-                <div id="2" class="deux"  onclick="votreChoix(2)">
-                  <img src="../img/choix2.png" alt="feuille">
-                </div>
-                <div id="3" class="troi"onclick="votreChoix(3)">
-                  <img src="../img/choix3.png" alt="ciseaux">
-                </div>
-              </div>
-              <div class="boiteInfo">
-                   <h2>Score et précédent jeux</h2>
-                   <div id="choixOrdi">
-                   </div>
-              </div>
-          </div>
+
+    </div>
+      <center>
+      <div id="chrono"></div>
+    </center>
+        <div class="plateau">
+      <center>
+      <div class="images">
+
+          <h1>A vous de choisir</h1>
+
+          <img id="pierre" src="img/choix1.png" alt="" onclick ="ChoixJoueur(this.src),ChoixOrdinateur(),comparer(1,rangAlea)"/>
+          <img id="feuille" src="img/choix2.png" alt="" onclick ="ChoixJoueur(this.src),ChoixOrdinateur(),comparer(2,rangAlea)"/>
+          <img id="ciseaux" src="img/choix3.png" alt="" onclick ="ChoixJoueur(this.src),ChoixOrdinateur(),comparer(3,rangAlea)"/>
+
+    </div>
+        <div>
+          <img class="choix" src="" alt="" />
+          <img class="choixOrdi" src="" alt="" />
+        <div>
+          <div class="res"></div>
+          <br>
+          <div class="pointJoueur"></div>
+          <br>
+          <div class="pointOrdi"></div>
+          <!-- <a href="pages/Gain_reduc.html" target="_blank"> <input class="reset" type="button" value="Bouton"> </a> -->
+          <a href="Janken.html"> <input class="reset" type="button" value="Redémarrer"> </a>
+          <p class="codeReduc">"codeAlea()"</p>
+        </div>
+        </div>
+      </div>
+        </center>
+        <script type="text/javascript" src="js/jquery-1.12.2.min.js"></script>
+        <script type="text/javascript" src="js/janken.js"></script>
           <footer>
             <div class="textfoot"> &copy;2018 Kevin Gato - Gifti
             </div>
